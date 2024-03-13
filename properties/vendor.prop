@@ -320,6 +320,7 @@ ro.surface_flinger.set_touch_timer_ms=1000
 sys.fflag.override.settings_seamless_transfer=true
 
 # Sensors
+persist.vendor.sensors.debug.hal=0
 persist.vendor.sensors.allow_non_default_discovery=true
 persist.vendor.sensors.sync_request=true
 

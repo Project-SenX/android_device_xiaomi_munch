@@ -222,9 +222,6 @@ persist.vendor.fingerprint.sensor_location=1080|965|115|local:463094673663848972
 persist.vendor.fingerprint.type=side
 persist.vendor.qfp=false
 
-# FRP
-ro.frp.pst=/dev/block/bootdevice/by-name/frp
-
 # Gatekeeper
 vendor.gatekeeper.disable_spu=true
 

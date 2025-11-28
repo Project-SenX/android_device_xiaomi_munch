@@ -67,7 +67,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ApertureOverlayDevice \
     FrameworkResOverlayDevice \
-    LineageDialerOverlayDevice \
     LineageSettingsOverlayDevice \
     LineageSystemUIOverlayDevice \
     SettingsOverlayDevice \

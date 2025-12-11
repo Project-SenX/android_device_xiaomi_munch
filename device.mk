@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
     SettingsOverlayDevice \
     SystemUIOverlayDevice
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
 

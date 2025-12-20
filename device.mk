@@ -29,6 +29,9 @@ $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/camera/camera_cnf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_cnf.txt
 
+# Call GameBar Package
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
+
 # Logging
 SPAMMY_LOG_TAGS := \
     MiStcImpl \
